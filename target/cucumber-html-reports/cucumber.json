@@ -1,0 +1,429 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 753891036,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on facebook login page",
+            "match": {
+              "location": "LoginSD.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8715544080,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedSD.setup()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Verify invalid login with multiple usernames",
+        "description": "",
+        "id": "login-feature;verify-invalid-login-with-multiple-usernames;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 197052297,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedSD.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 387855983,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter alparen@panda.colomb into username text fields on homescreen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "alparen@panda.colomb",
+                  "offset": 8
+                },
+                {
+                  "val": "username",
+                  "offset": 34
+                }
+              ],
+              "location": "LoginSD.enterDataUserAndPassField(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 201250966,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter pandamambaboi into password text fields on homescreen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pandamambaboi",
+                  "offset": 8
+                },
+                {
+                  "val": "password",
+                  "offset": 27
+                }
+              ],
+              "location": "LoginSD.enterDataUserAndPassField(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117876904,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on login button on home page",
+            "match": {
+              "location": "LoginSD.clickonButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2437150047,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I verify invalid login message",
+            "match": {
+              "location": "LoginSD.verifyInvalidLogin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@login"
+          },
+          {
+            "line": 1,
+            "name": "@web"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14146212,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on facebook login page",
+            "match": {
+              "location": "LoginSD.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5436754224,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedSD.setup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Verify invalid login with multiple usernames",
+        "description": "",
+        "id": "login-feature;verify-invalid-login-with-multiple-usernames;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 180084242,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedSD.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 462779182,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter birsaqbaba@babus.net into username text fields on homescreen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "birsaqbaba@babus.net",
+                  "offset": 8
+                },
+                {
+                  "val": "username",
+                  "offset": 34
+                }
+              ],
+              "location": "LoginSD.enterDataUserAndPassField(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 186564578,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter oyunreis5678 into password text fields on homescreen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "oyunreis5678",
+                  "offset": 8
+                },
+                {
+                  "val": "password",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginSD.enterDataUserAndPassField(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152407688,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on login button on home page",
+            "match": {
+              "location": "LoginSD.clickonButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1856365871,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I verify invalid login message",
+            "match": {
+              "location": "LoginSD.verifyInvalidLogin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@login"
+          },
+          {
+            "line": 1,
+            "name": "@web"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9790175,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on facebook login page",
+            "match": {
+              "location": "LoginSD.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5775612986,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedSD.setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Verify invalid login with multiple usernames",
+        "description": "",
+        "id": "login-feature;verify-invalid-login-with-multiple-usernames;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 178028785,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedSD.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 412696077,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter hamdireis@bogazici.edu into username text fields on homescreen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "hamdireis@bogazici.edu",
+                  "offset": 8
+                },
+                {
+                  "val": "username",
+                  "offset": 36
+                }
+              ],
+              "location": "LoginSD.enterDataUserAndPassField(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 188680910,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter bogazkilic into password text fields on homescreen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bogazkilic",
+                  "offset": 8
+                },
+                {
+                  "val": "password",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginSD.enterDataUserAndPassField(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119988729,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on login button on home page",
+            "match": {
+              "location": "LoginSD.clickonButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2763838528,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I verify invalid login message",
+            "match": {
+              "location": "LoginSD.verifyInvalidLogin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@login"
+          },
+          {
+            "line": 1,
+            "name": "@web"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@web"
+      }
+    ]
+  }
+]
